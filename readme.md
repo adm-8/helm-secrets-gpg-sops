@@ -1,6 +1,8 @@
 ```
 docker build --platform linux/amd64 -t adm8/helm-secrets-gpg-sops:pokazaur .
 docker push adm8/helm-secrets-gpg-sops:pokazaur
+
+docker run --rm -it adm8/helm-secrets-gpg-sops:pokazaur 
 ```
 
 # Example .gitlab-ci.yml snippet

@@ -1,5 +1,5 @@
 ```
-docker build -t adm8/helm-secrets-gpg-sops:pokazaur .
+docker build --platform linux/amd64 -t adm8/helm-secrets-gpg-sops:pokazaur .
 docker push adm8/helm-secrets-gpg-sops:pokazaur
 ```
 

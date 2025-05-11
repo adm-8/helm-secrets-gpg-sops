@@ -32,3 +32,4 @@ deploy:
     - helm upgrade --install myapp ./chart -f secrets.yaml
 
 ```
+May be helpful: https://github.com/inthepocket/helm-sops
